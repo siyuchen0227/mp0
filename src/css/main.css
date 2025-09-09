@@ -1,1 +1,91 @@
 /* Your CSS here. */
+
+/* Comments in CSS */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_syntax/Comments */
+/* font-family */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/font-family */
+body {
+  font-family: "Arial", sans-serif;
+  /* min-height */
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/min-height */
+  min-height: 100vh;
+  margin: 0;
+  background-color: #666666;
+  padding: 40px;
+  box-sizing: border-box;
+}
+/* Class selectors */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors */
+.card {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: #ffffff;
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 10px 0 20px;
+  font-weight: normal;
+}
+/* https://developer.mozilla.org/zh-CN/docs/Web/CSS/line-height */
+.bio {
+  color: #ffffff;
+  text-align: left; 
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.link {
+  display: inline-block;
+  color: #9966cc;
+  padding: 5px 0;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/max-width */
+.reference {
+  max-width: 600px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.reference h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type */
+.reference ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reference ul li {
+  margin-bottom: 10px;
+}
+
+.reference ul li a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
